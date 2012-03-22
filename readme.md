@@ -1,4 +1,4 @@
-# ADBImageView
+# GSSlideMenu
 
 With GSSlideMenu you can easily create a web-based menu like that one present in the Facebook app.
 Web-based because you can set an UIWebView also for the "back" menu; GSSlideMenu intercepts all the links and it opens the webpage in the main UIWebView.
