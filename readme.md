@@ -14,7 +14,7 @@ How to use it
 	NSURL *frontView_start_url = [NSURL URLWithString:@"http://www.your_domain.com/url_for_frontMenu.html"];
 	NSString *term_to_show_menu = [NSString stringWithFormat:@"open_back_menu"];
     
-	self.gsslidemenu = [[GSSlideMenuController alloc] initWithBackViewURL:backView_url 
+	GSSlideMenuController *gsslidemenu = [[GSSlideMenuController alloc] initWithBackViewURL:backView_url 
                                                       	  andFrontViewURL:frontView_start_url 
                                                        andTermiToShowMenu:term_to_show_menu];
    

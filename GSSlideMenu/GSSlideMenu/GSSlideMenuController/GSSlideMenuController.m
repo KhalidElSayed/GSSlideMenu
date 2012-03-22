@@ -32,7 +32,7 @@
     [super dealloc];
 }
 
--(id)initWithBackViewURL:(NSURL *)backURL andFrontViewURL:(NSURL *)frontURL andTermiToShowMenu:(NSString *)term{
+-(id)initWithBackViewURL:(NSURL *)backURL andFrontViewURL:(NSURL *)frontURL andTermToShowMenu:(NSString *)term{
     self = [super init];
     if (self) {
         

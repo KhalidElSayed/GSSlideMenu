@@ -20,7 +20,7 @@
 @property (strong, nonatomic) NSURL *frontStartURL;
 @property (strong, nonatomic) NSString *termToShowMenu;
 
--(id)initWithBackViewURL:(NSURL *)backURL andFrontViewURL:(NSURL *)frontURL andTermiToShowMenu:(NSString *)term;
+-(id)initWithBackViewURL:(NSURL *)backURL andFrontViewURL:(NSURL *)frontURL andTermToShowMenu:(NSString *)term;
 
 -(void)moveMenu;
 -(void)loadURLinFrontView:(NSURL *)url;

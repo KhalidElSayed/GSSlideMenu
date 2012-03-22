@@ -32,7 +32,7 @@
     
     self.gsslidemenu = [[GSSlideMenuController alloc] initWithBackViewURL:backView_url 
                                                           andFrontViewURL:frontView_start_url 
-                                                       andTermiToShowMenu:term_to_show_menu];
+                                                       andTermToShowMenu:term_to_show_menu];
     
    
     self.window.rootViewController = self.gsslidemenu;
