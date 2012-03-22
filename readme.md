@@ -24,7 +24,7 @@ How to use it
 
 The NSString `term_to_show_menu` is a string which the FrontView detects and uses it in order to open the menu.
 In your html file you should write 
-``` html
+``` 
 	<a href="string_used_in_term_to_show_menu">Menu</a>
 ```
 

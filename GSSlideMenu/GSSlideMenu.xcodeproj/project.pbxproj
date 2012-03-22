@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBF0FADF151B29AD0066CD32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF0FADE151B29AD0066CD32 /* UIKit.framework */; };
+		FBF0FAE1151B29AD0066CD32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF0FAE0151B29AD0066CD32 /* Foundation.framework */; };
+		FBF0FAE3151B29AD0066CD32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF0FAE2151B29AD0066CD32 /* CoreGraphics.framework */; };
+		FBF0FAE9151B29AD0066CD32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBF0FAE7151B29AD0066CD32 /* InfoPlist.strings */; };
+		FBF0FAEB151B29AD0066CD32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF0FAEA151B29AD0066CD32 /* main.m */; };
+		FBF0FAEF151B29AD0066CD32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF0FAEE151B29AD0066CD32 /* AppDelegate.m */; };
+		FBF0FB00151B29FE0066CD32 /* GSSlideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF0FAFF151B29FE0066CD32 /* GSSlideMenuController.m */; };
+		FBF0FB06151B2AB60066CD32 /* BackView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF0FB04151B2AB60066CD32 /* BackView.m */; };
+		FBF0FB07151B2AB60066CD32 /* BackView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBF0FB05151B2AB60066CD32 /* BackView_iPhone.xib */; };
+		FBF0FB0D151B2B430066CD32 /* BackView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBF0FB0C151B2B430066CD32 /* BackView_iPad.xib */; };
+		FBF0FB11151B2B610066CD32 /* FrontView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF0FB0F151B2B610066CD32 /* FrontView.m */; };
+		FBF0FB12151B2B610066CD32 /* FrontView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBF0FB10151B2B610066CD32 /* FrontView_iPhone.xib */; };
+		FBF0FB14151B2B9A0066CD32 /* FrontView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBF0FB13151B2B9A0066CD32 /* FrontView_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBF0FADA151B29AD0066CD32 /* GSSlideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSSlideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF0FADE151B29AD0066CD32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBF0FAE0151B29AD0066CD32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBF0FAE2151B29AD0066CD32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBF0FAE6151B29AD0066CD32 /* GSSlideMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GSSlideMenu-Info.plist"; sourceTree = "<group>"; };
+		FBF0FAE8151B29AD0066CD32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBF0FAEA151B29AD0066CD32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBF0FAEC151B29AD0066CD32 /* GSSlideMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GSSlideMenu-Prefix.pch"; sourceTree = "<group>"; };
+		FBF0FAED151B29AD0066CD32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBF0FAEE151B29AD0066CD32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBF0FAFE151B29FE0066CD32 /* GSSlideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSSlideMenuController.h; path = GSSlideMenuController/GSSlideMenuController.h; sourceTree = "<group>"; };
+		FBF0FAFF151B29FE0066CD32 /* GSSlideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSSlideMenuController.m; path = GSSlideMenuController/GSSlideMenuController.m; sourceTree = "<group>"; };
+		FBF0FB03151B2AB60066CD32 /* BackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackView.h; path = ViewControllers/BackView.h; sourceTree = "<group>"; };
+		FBF0FB04151B2AB60066CD32 /* BackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackView.m; path = ViewControllers/BackView.m; sourceTree = "<group>"; };
+		FBF0FB05151B2AB60066CD32 /* BackView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BackView_iPhone.xib; path = ViewControllers/BackView_iPhone.xib; sourceTree = "<group>"; };
+		FBF0FB0C151B2B430066CD32 /* BackView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BackView_iPad.xib; path = ViewControllers/BackView_iPad.xib; sourceTree = "<group>"; };
+		FBF0FB0E151B2B610066CD32 /* FrontView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrontView.h; path = ViewControllers/FrontView.h; sourceTree = "<group>"; };
+		FBF0FB0F151B2B610066CD32 /* FrontView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FrontView.m; path = ViewControllers/FrontView.m; sourceTree = "<group>"; };
+		FBF0FB10151B2B610066CD32 /* FrontView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FrontView_iPhone.xib; path = ViewControllers/FrontView_iPhone.xib; sourceTree = "<group>"; };
+		FBF0FB13151B2B9A0066CD32 /* FrontView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FrontView_iPad.xib; path = ViewControllers/FrontView_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBF0FAD7151B29AD0066CD32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF0FADF151B29AD0066CD32 /* UIKit.framework in Frameworks */,
+				FBF0FAE1151B29AD0066CD32 /* Foundation.framework in Frameworks */,
+				FBF0FAE3151B29AD0066CD32 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBF0FACF151B29AD0066CD32 = {
+			isa = PBXGroup;
+			children = (
+				FBF0FAE4151B29AD0066CD32 /* GSSlideMenu */,
+				FBF0FADD151B29AD0066CD32 /* Frameworks */,
+				FBF0FADB151B29AD0066CD32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF0FADB151B29AD0066CD32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF0FADA151B29AD0066CD32 /* GSSlideMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF0FADD151B29AD0066CD32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBF0FADE151B29AD0066CD32 /* UIKit.framework */,
+				FBF0FAE0151B29AD0066CD32 /* Foundation.framework */,
+				FBF0FAE2151B29AD0066CD32 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBF0FAE4151B29AD0066CD32 /* GSSlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FBF0FB02151B2A820066CD32 /* ViewControllers */,
+				FBF0FB01151B2A020066CD32 /* GSSlideMenuController */,
+				FBF0FAED151B29AD0066CD32 /* AppDelegate.h */,
+				FBF0FAEE151B29AD0066CD32 /* AppDelegate.m */,
+				FBF0FAE5151B29AD0066CD32 /* Supporting Files */,
+			);
+			path = GSSlideMenu;
+			sourceTree = "<group>";
+		};
+		FBF0FAE5151B29AD0066CD32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBF0FAE6151B29AD0066CD32 /* GSSlideMenu-Info.plist */,
+				FBF0FAE7151B29AD0066CD32 /* InfoPlist.strings */,
+				FBF0FAEA151B29AD0066CD32 /* main.m */,
+				FBF0FAEC151B29AD0066CD32 /* GSSlideMenu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBF0FB01151B2A020066CD32 /* GSSlideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				FBF0FAFE151B29FE0066CD32 /* GSSlideMenuController.h */,
+				FBF0FAFF151B29FE0066CD32 /* GSSlideMenuController.m */,
+			);
+			name = GSSlideMenuController;
+			sourceTree = "<group>";
+		};
+		FBF0FB02151B2A820066CD32 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBF0FB03151B2AB60066CD32 /* BackView.h */,
+				FBF0FB04151B2AB60066CD32 /* BackView.m */,
+				FBF0FB05151B2AB60066CD32 /* BackView_iPhone.xib */,
+				FBF0FB0C151B2B430066CD32 /* BackView_iPad.xib */,
+				FBF0FB0E151B2B610066CD32 /* FrontView.h */,
+				FBF0FB0F151B2B610066CD32 /* FrontView.m */,
+				FBF0FB10151B2B610066CD32 /* FrontView_iPhone.xib */,
+				FBF0FB13151B2B9A0066CD32 /* FrontView_iPad.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBF0FAD9151B29AD0066CD32 /* GSSlideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF0FAFB151B29AD0066CD32 /* Build configuration list for PBXNativeTarget "GSSlideMenu" */;
+			buildPhases = (
+				FBF0FAD6151B29AD0066CD32 /* Sources */,
+				FBF0FAD7151B29AD0066CD32 /* Frameworks */,
+				FBF0FAD8151B29AD0066CD32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSSlideMenu;
+			productName = GSSlideMenu;
+			productReference = FBF0FADA151B29AD0066CD32 /* GSSlideMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF0FAD1151B29AD0066CD32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FBF0FAD4151B29AD0066CD32 /* Build configuration list for PBXProject "GSSlideMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBF0FACF151B29AD0066CD32;
+			productRefGroup = FBF0FADB151B29AD0066CD32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF0FAD9151B29AD0066CD32 /* GSSlideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBF0FAD8151B29AD0066CD32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF0FAE9151B29AD0066CD32 /* InfoPlist.strings in Resources */,
+				FBF0FB07151B2AB60066CD32 /* BackView_iPhone.xib in Resources */,
+				FBF0FB0D151B2B430066CD32 /* BackView_iPad.xib in Resources */,
+				FBF0FB12151B2B610066CD32 /* FrontView_iPhone.xib in Resources */,
+				FBF0FB14151B2B9A0066CD32 /* FrontView_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBF0FAD6151B29AD0066CD32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF0FAEB151B29AD0066CD32 /* main.m in Sources */,
+				FBF0FAEF151B29AD0066CD32 /* AppDelegate.m in Sources */,
+				FBF0FB00151B29FE0066CD32 /* GSSlideMenuController.m in Sources */,
+				FBF0FB06151B2AB60066CD32 /* BackView.m in Sources */,
+				FBF0FB11151B2B610066CD32 /* FrontView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBF0FAE7151B29AD0066CD32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF0FAE8151B29AD0066CD32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBF0FAF9151B29AD0066CD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBF0FAFA151B29AD0066CD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBF0FAFC151B29AD0066CD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSSlideMenu/GSSlideMenu-Prefix.pch";
+				INFOPLIST_FILE = "GSSlideMenu/GSSlideMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBF0FAFD151B29AD0066CD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSSlideMenu/GSSlideMenu-Prefix.pch";
+				INFOPLIST_FILE = "GSSlideMenu/GSSlideMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBF0FAD4151B29AD0066CD32 /* Build configuration list for PBXProject "GSSlideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF0FAF9151B29AD0066CD32 /* Debug */,
+				FBF0FAFA151B29AD0066CD32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF0FAFB151B29AD0066CD32 /* Build configuration list for PBXNativeTarget "GSSlideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF0FAFC151B29AD0066CD32 /* Debug */,
+				FBF0FAFD151B29AD0066CD32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBF0FAD1151B29AD0066CD32 /* Project object */;
+}
